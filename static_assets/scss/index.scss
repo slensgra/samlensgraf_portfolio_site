@@ -1,0 +1,33 @@
+$main-text-color: #000330;
+$hero-background-color: #ffd900;
+$title-font: 'Archivo Black', 'sans-serif';
+
+#hero-container {
+  text-align: center;
+  background-color: $hero-background-color;
+  font-family: $title-font;
+  color: $main-text-color;
+  padding: 30px;
+
+  h1 {
+    font-size: 60pt;
+    padding-bottom: 0px;
+    padding: 0;
+  }
+
+  h3 {
+    font-style: italic;
+    padding: 0;
+  }
+
+  h5 {
+    padding: 0;
+  }
+}
+
+.section-heading {
+  font-family: $title-font;
+  text-align: center;
+  font-size: 35pt;
+  color: $main-text-color;
+}
