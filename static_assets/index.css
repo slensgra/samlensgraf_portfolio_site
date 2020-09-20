@@ -1,0 +1,14 @@
+#header-container {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.body-font {
+    font-family: 'Roboto', 'sans-serif';
+    color: navy;
+}
+
+.heading-font {
+    font-family: 'Archivo Black', 'sans-serif';
+    color: navy;
+}
