@@ -1,3 +1,4 @@
 node_modules
 package-lock.json
 static_assets/css
+npm-debug.log
