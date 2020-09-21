@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="static_assets/css/index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
@@ -15,24 +15,59 @@
         <h5><a href="resume/main.pdf">Resume</a> | <a href="https://github.com/slensgra">Github</a> | <a href="https://www.linkedin.com/in/samuel-lensgraf-1964b648/">LinkedIn</a></h5>
     </div>
 
-    <h2 class="section-heading">About Me</h2>
+    <div class="vertical-spacing"></div>
+    <h2 class="section-heading accent-background">About Me</h2>
 
-    <div class="flex two-1200 center navy" style="padding: 10px;">
-            <div style="text-align: center;">
-                <span><img src="static_assets/images/two-robots.png" width="90%" style="margin: 0 auto; max-width: 500px"></span>
+    <div id="about-me-container" class="flex two-1200 center">
+        <div id="hero-image-container">
+            <div class="tabs four">
+                <input id="tabC-1" type='radio' name='tabGroupC' checked >
+                <input id="tabC-2" type='radio' name='tabGroupC'>
+                <input id="tabC-3" type='radio' name='tabGroupC'>
+                <input id="tabC-4" type='radio' name='tabGroupC'>
+                <div class='row'>
+                  <div>
+                    <img src="static_assets/images/working-with-robot-underwater.png">
+                  </div>
+                  <div>
+                    <img src="static_assets/images/me-on-shore.jpg">
+                  </div>
+                  <div>
+                    <img src="static_assets/images/group-barbados.jpg">
+                  </div>
+                  <div>
+                    <img src="static_assets/images/me-at-shipwreck.jpg">
+                  </div>
+                </div>
+                <label for="tabC-1"><img src="static_assets/images/working-with-robot-underwater.png"></label>
+                <label for="tabC-2"><img src="static_assets/images/me-on-shore.jpg"></label>
+                <label for="tabC-3"><img src="static_assets/images/group-barbados.jpg"></label>
+                <label for="tabC-4"><img src="static_assets/images/me-at-shipwreck.jpg"></label>
             </div>
+        </div>
 
-            <div>
-              <span><span style="margin-left: 50px;"></span>I study autonomous robotic fabrication. I am particularly interested in large-scale fabrication of structures in unstructured environments: construction. Fully autonomous construction technology featuring mobile robots as the primary builders could open up important opportunities for rapidly deploying infrastructure at low cost. Currently, the development of any infrastructure at scale is exceptionally expensive and time consuming. For example, rising oceans are already impacting coastal cities in our country. As ocean levels continue to rise, the cost of relocating those affected, or to build infrastructure to keep the water at bay for large cities will be enormous. Autonomous construction technologies could allow us to more gracefully adapt to changing circumstances. Autonomous construction could also open up opportunities for building infrastructure in places that are difficult or impossible to build. Offshore wind energy production is currently expensive to develop, making its economic viability limited. Autonomous construction systems built specifically to operate underwater could allow us to quickly develop offshore energy generation capacity.
-</span>
-            </div>
+        <div id="about-me-text">
+          <span><span class="tab"></span>I study autonomous robotic fabrication. I am particularly interested in large-scale fabrication
+          of structures in unstructured environments: construction. Fully autonomous construction technology
+          featuring mobile robots as the primary builders could open up important opportunities for rapidly
+          deploying infrastructure at low cost. Currently, the development of any infrastructure at scale is
+          exceptionally expensive and time consuming. For example, rising oceans are already impacting coastal
+          cities in our country. As ocean levels continue to rise, the cost of relocating those affected, or to
+          build infrastructure to keep the water at bay for large cities will be enormous. Autonomous construction
+          technologies could allow us to more gracefully adapt to changing circumstances. Autonomous construction
+          could also open up opportunities for building infrastructure in places that are difficult or impossible
+          to build. Offshore wind energy production is currently expensive to develop, making its economic viability
+          limited. Autonomous construction systems built specifically to operate underwater could allow us to
+          quickly develop offshore energy generation capacity.</span>
+        </div>
     </div>
 
     <h2 class="section-heading">Projects</h2>
-    <div class="flex one center navy" style="text-align: center;">
+
+    <div class="flex three center" id="projects-container">
         <div><span><h5>Underwater Assembly</h2></span></div>
-        <div><span><h5>Puzzle Kinematics</h2></span></div>
         <div><span><h5>3D-Aware Printing</h2></span></div>
+        <div><span><h5>Puzzle Kinematics</h2></span></div>
     </div>
 
     <h2 class="section-heading">Publications</h2>
