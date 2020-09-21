@@ -2,7 +2,7 @@ $main-text-color: #000546;
 $hero-background-color: #ffd900;
 $accent-background-color:  #3c3c461a;
 $content-width: 85%;
-$content-max-width: 1300;
+$content-max-width: 1300px;
 
 $title-font: 'Archivo Black', 'sans-serif';
 $main-text-font: 'Roboto', 'sans-serif';
@@ -74,14 +74,45 @@ $main-text-font: 'Roboto', 'sans-serif';
   }
 }
 
+$project-info-width: 320px;
+
 #projects-container {
   text-align: center;
   max-width: $content-max-width;
   width: $content-width;
   margin: 0 auto;
 
-  img {
-    max-width: 250px;
+  .project-card {
+    .project-title {
+      width: $project-info-width;
+      margin: 0 auto;
+      text-align: center;
+      font-family: $main-text-font;
+      font-weight: bold;
+      font-size: 14pt;
+      background-color: $accent-background-color;
+      padding-top: 10px;
+    }
+  
+    .project-image {
+      max-width: $project-info-width;
+      margin: 0 auto;
+      padding: 10px;
+      background-color: $accent-background-color;
+      color: $main-text-color;
+    }
+  
+    .project-blurb {
+      text-align: left;
+      width: $project-info-width;
+      margin: 0 auto;
+      background-color: $accent-background-color;
+      padding: 10px;
+      font-family: $main-text-font;
+      color: $main-text-color;
+      font-weight: 300;
+    }
+    padding-bottom: 30px;
   }
 }
 
