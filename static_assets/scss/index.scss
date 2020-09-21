@@ -79,6 +79,10 @@ $main-text-font: 'Roboto', 'sans-serif';
   max-width: $content-max-width;
   width: $content-width;
   margin: 0 auto;
+
+  img {
+    max-width: 250px;
+  }
 }
 
 .tab {
